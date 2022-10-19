@@ -1,0 +1,24 @@
+import React from 'react';
+import { Pressable,TouchableOpacity , Text} from 'react-native';
+
+
+
+const Button = ({title}) => {
+    
+
+
+    return (
+
+        <Pressable>
+            <Text>
+                {title}
+             </Text>
+        </Pressable>
+
+
+    )
+
+}
+
+
+export default Buttton;
