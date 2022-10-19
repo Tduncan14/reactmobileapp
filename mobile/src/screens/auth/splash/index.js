@@ -2,6 +2,8 @@ import React from 'react';
 import {Text,View,Image} from 'react-native';
 import splashImage from '../../../assets/splash.png';
 import { styles } from './styles/styles';
+import Button from '../../../components/Button/Index';
+
 
 const Splash = () => {
 
@@ -15,6 +17,7 @@ const Splash = () => {
             You'll Find   </Text>
             <Text style={styles.innerTitle}>All you need </Text>
             <Text style={styles.title}>Here !</Text>
+            <Button  title="sign up"/>
       
         </View>
     )

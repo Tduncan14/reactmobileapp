@@ -1,6 +1,6 @@
 import React from 'react';
 import { Pressable,TouchableOpacity , Text} from 'react-native';
-
+import styles from './Styles';
 
 
 const Button = ({title}) => {
@@ -9,7 +9,7 @@ const Button = ({title}) => {
 
     return (
 
-        <Pressable>
+        <Pressable style ={styles.container}>
             <Text>
                 {title}
              </Text>
@@ -21,4 +21,4 @@ const Button = ({title}) => {
 }
 
 
-export default Buttton;
+export default Button;
