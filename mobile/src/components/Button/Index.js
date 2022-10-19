@@ -9,11 +9,11 @@ const Button = ({title}) => {
 
     return (
 
-        <Pressable style ={styles.container}>
-            <Text>
+        <TouchableOpacity  activeOpacity={0.5} style ={styles.container}>
+            <Text style={styles.text}>
                 {title}
              </Text>
-        </Pressable>
+        </TouchableOpacity>
 
 
     )

@@ -6,9 +6,13 @@ const styles =  StyleSheet.create({
 
     container:{
         backgroundColor:'#4F65AC',
-        padding:8
-    }
+        padding:8,
+        textAlign:'center'
+    },
 
+    text:{
+        textAlign:"center"
+    }
 
 
 
