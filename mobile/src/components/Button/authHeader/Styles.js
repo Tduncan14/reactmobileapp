@@ -10,6 +10,10 @@ import { colors } from '../../../utils/colors';
         borderRadius:8,
         width:'100%'
     },
+    image:{
+
+    },
+    
     title:{
         color:colors.white,
         textAlign:'center',

@@ -1,14 +1,20 @@
 import React from 'react';
 import {Pressable, Text,TouchableOpacity,View,Image} from 'react-native'
+import auth_back from '../../../assets/auth_back.png'
+import styles from '../Styles';
 
 
+const Authheader = ({title,OnBackPress}) => {
 
-const Button = ({title,Onpress}) => {
-
-    <View>
-        <Pressable>
-            {/* <Image source={} /> */}
+    <View style={styles.container}>
+        <Pressable  hitSlop = {20} onPresss = {OnBackPress}>
+            <Image style={styles.image} source={auth_back}/>
         </Pressable>
+
+        <Text style={styles.title}>
+            {title}
+        </Text>
+
 
     </View>
 
@@ -17,4 +23,4 @@ const Button = ({title,Onpress}) => {
 }
 
 
-export default Button
+export default Authheader
